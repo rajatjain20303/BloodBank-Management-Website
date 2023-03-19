@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+body{
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+    background-color: red;
+}
+
+.message{
+    margin-top: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    padding: 2em;
+    width: 20em;
+    border-radius: 0.5em;
+    text-align: center;
+    font-size: 35px;
+}
+
+input[type=button]
+  {
+    align-items: center;
+    background-color: rgb(232, 10, 10);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 1em;
+    border-radius: 0.5em;
+    padding: 0.3em;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-right: 40%;
+    float:unset;
+  }
+  input[type=button]:hover{
+    background-color: rgb(152, 12, 12);
+}
+
+@media screen and (max-width: 850px) {
+    .message{
+
+        width: 500px;
+      }
+  }
+  @media screen and (max-width: 650px) {
+    .message{
+
+        width: 350px;
+      }
+  }
+
